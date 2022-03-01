@@ -8,6 +8,8 @@ public class tester {
 		listaPersonas.add(new Ejecutivo("Gabriela Juarez", 1985, "Femenino", "Casada", (float) 12000.70, "Supervisar obras civiles"));
 		listaPersonas.add(new Comerciante("Gabriela Juarez", 1985, "Femenino", "Casada", (float) 15600.50, "Estados de Guerrero y Oaxaca"));
 		
-		System.out.println(listaPersonas);
+		for(int i=0; i< listaPersonas.size();i++)
+			System.out.println(listaPersonas.get(i).getOcupacion());
+	}
 	}
 }
