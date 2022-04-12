@@ -1,0 +1,10 @@
+create table Horarios (
+  claveHorario char(10) NOT NULL,
+  materia varchar(30),
+  dias varchar(35),
+  horaInicio varchar(10),
+  horaFin varchar (10),
+  profesor varchar (200),
+  primary key(claveHorario)
+ );
+
