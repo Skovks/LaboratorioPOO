@@ -57,7 +57,4 @@ public class Horario {
 		return "Horario [claveHorario=" + claveHorario + ", materia=" + materia + ", dias=" + dias + ", horaInicio="
 				+ horaInicio + ", horaFin=" + horaFin + ", profesor=" + profesor + "]";
 	}
-	
-	
-
 }
